@@ -1,5 +1,5 @@
 {
-  "name": "device-test-tool",
+  "name": "ui-toolbox",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -25,6 +25,7 @@
     "prettier/prettier": "error",
     "react/jsx-filename-extension": "off",
     "import/extensions": "off",
+    "import/prefer-default-export": "off",
     "import/no-extraneous-dependencies": [
       "error",
       {
@@ -35,7 +36,8 @@
   "settings": {
     "import/resolver": {
       "node": {
-        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+        "extensions": [".js", ".jsx", ".ts", ".tsx"],
+        "moduleDirectory": ["node_modules", "src/"]
       }
     }
   }

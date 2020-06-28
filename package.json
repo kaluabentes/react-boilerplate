@@ -15,6 +15,11 @@
     "react-scripts": "3.4.1",
     "typescript": "~3.7.2"
   },
+  "husky": {
+    "hooks": {
+      "pre-push": "yarn lint && yarn typecheck && yarn test"
+    }
+  },
   "scripts": {
     "dev": "react-scripts start",
     "build": "react-scripts build",
@@ -60,6 +65,7 @@
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-react": "^7.20.0",
     "eslint-plugin-react-hooks": "^4.0.4",
+    "husky": "^4.2.5",
     "prettier": "^2.0.5"
   }
 }
